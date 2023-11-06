@@ -1,0 +1,5 @@
+numbers = [int(input()) for _ in range(10)]
+
+remainders = set(num % 42 for num in numbers)
+
+print(len(remainders))
